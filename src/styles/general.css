@@ -7,7 +7,11 @@ ul {
     background: linear-gradient(to right, rgba(0, 128, 128, 0.7), rgba(255, 192, 203, 0.8));
     padding: 15px 30px;
   }
-  
+
+  .logo {
+    width: 5%
+  }
+
   header > div {
     width: 100%;
     max-width: 1250px;
@@ -40,16 +44,17 @@ ul {
     text-decoration: none;
     list-style: none;
     gap: 15px;
-    color: #ccc;
+    @apply text-emerald-800;
   }
   
   header .topNav ul a:link:hover{
    cursor: pointer;
-   text-decoration: underline aquamarine;
+   @apply hover:text-indigo-950;
   }
 
   header .topNav ul a:visited{
-    color: aquamarine;
+   color: #333;
+   @apply hover:text-indigo-900;
   }
 
   header .topNav ul li {
