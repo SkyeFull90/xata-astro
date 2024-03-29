@@ -1,4 +1,13 @@
-# Astro with Tailwind
+# Astro Xata Blog
+
+A modern blog for the modern web. Built with [Astro](https://astro.build) and [Xata](https://xata.io).
+
+## Description
+
+This is a simple blog demonstrating how to use Xata with Astro.
+It uses the Xata API to fetch blog posts and display them on the page.
+
+## Astro with Tailwind
 
 ```sh
 npm create astro@latest -- --template with-tailwindcss
